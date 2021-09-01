@@ -1,0 +1,8 @@
+
+.container{
+  margin: 10px;
+}
+
+.container mat-card{
+  background-color: black;
+}

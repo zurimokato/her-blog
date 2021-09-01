@@ -1,0 +1,8 @@
+{
+    "/app/*":{
+        "target":"https://tstdrv2156523.restlets.api.netsuite.com",
+        "secure":false,
+        "changeOrigin":true
+      
+    }
+}

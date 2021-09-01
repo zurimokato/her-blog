@@ -1,0 +1,27 @@
+<mat-toolbar class="toolbar">
+    <span routerLink="/" class="title">DC Hero</span>
+    <span class="example-spacer"></span>
+   
+   <button mat-icon-button>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+   </button> 
+   
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">more_vert</mat-icon>
+    </button>
+</mat-toolbar>
+
+<mat-menu style="margin: 0; padding:0;" #menu="matMenu">
+    <div class="menuC">
+        <button mat-menu-item>
+            <mat-icon class="example-icon">dialpad</mat-icon>
+            <span routerLink="/registrar">Registrar Hero</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon class="example-icon">notifications_off</mat-icon>
+            <span>Disable alerts</span>
+        </button>
+
+    </div>
+       
+</mat-menu>

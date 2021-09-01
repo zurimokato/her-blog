@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.example-icon {
+    padding: 0 14px;
+    color:#FFC107;
+}
+
+body{
+    background-color: #eee;
+    color: white;
+}
+
+.card-blog{
+    background-color: black;
+}

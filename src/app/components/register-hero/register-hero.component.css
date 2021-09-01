@@ -1,0 +1,27 @@
+
+.color-white{
+    border: none;
+    color:white;
+    font-weight: bold;
+    height: 50px;
+    font-size: 30px;
+    border-bottom: 4px solid #FFC107;; 
+    background-color: black;
+    margin-top: 20px;
+}
+
+textarea{
+    
+    font-size: 30px;
+    height: 300px;
+}
+
+ div button{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
